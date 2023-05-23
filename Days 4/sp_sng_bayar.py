@@ -1,0 +1,10 @@
+import random
+print("PROGRAM YANG BISA DIGUNAKAN UNTUK MENENTUKAN SIAPA \nYANG AKAN BAYAR MAKAN KETIKA BARENG AMA TEMEN")
+tanya_nama = input("Masukkan Nama-nama yang ingin di gacha hehe :v (pisahkan dengan koma) -> ")
+t = tanya_nama.split(",")
+#print(t[random.randint(0, {len(t)})])
+hasil_acak = random.randint(0, len(t) - 1 )
+input("Tekan 'ENTER' untuk melihat hasil :v")
+print(f"Yang akan membayar adalah {t[hasil_acak]}")
+input("")
+print("Dah, Gini Doang :v ")
